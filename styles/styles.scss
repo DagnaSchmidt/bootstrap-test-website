@@ -1,8 +1,37 @@
-.btn-warning, .btn-info {
+
+.btn-info {
     color: #fff;
     font-weight: 600;
     &:hover {
         color: #fff;
-        font-weight: 300;
+    }
+}
+.btn-outline-warning:hover {
+    color: #fff;
+}
+
+.section__one {
+    background-color: var(--bs-primary);
+    margin-top: 4vw;
+    background-image: url(../img/bg-1.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    &__img {
+        width: 35vw;
+        height: auto;
+    }
+}
+.section__two {
+    background-color: #fff;
+}
+
+.footer {
+    background-color: var(--bs-primary);
+    color: #fff;
+    .nav-link {
+        color: #fff;
+    }
+    a {
+        color: #fff;
     }
 }
