@@ -1,0 +1,8 @@
+.btn-warning, .btn-info {
+  color: #fff;
+  font-weight: 600;
+}
+.btn-warning:hover, .btn-info:hover {
+  color: #fff;
+  font-weight: 300;
+}/*# sourceMappingURL=styles.css.map */
